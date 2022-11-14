@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:scaleType = "centerCrop"
+        android:layout_gravity = "top"
+        android:src = "@drawable/white" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/cup" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height= "match_parent"
+        android:orientation = "vertical"
+        android:layout_gravity = "center">
+
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:scaleType='fitCenter'
+            android:src="@drawable/Logo" />
+
+
+        <TextView
+            android:id="@+id/simpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="#FFFFFF"
+            android:text="Goal: 12 Cups!"
+            android:textColor="#0000FF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:scaleType='fitCenter'
+        android:src="@drawable/menu_button"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:background="#5073"
+            android:text="Intake History"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:backgroundTint="@color/teal_200"
+            android:foregroundTint="#FFFFFF"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="   Add Drink    "
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:background="#5073"
+            android:text="Ranking" />
+    </LinearLayout>
+
+</FrameLayout>

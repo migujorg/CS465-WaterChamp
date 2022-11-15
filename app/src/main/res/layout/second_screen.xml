@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:scaleType = "centerCrop"
+        android:layout_gravity = "top"
+        android:src = "@drawable/white" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:scaleType='fitCenter'
+        android:src="@drawable/Logo" />
+
+</FrameLayout>

@@ -53,29 +53,47 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="2dp"
-            android:background="#FFFFFF"
-            android:text="1234"
+            android:background="#B6C3FF"
+            android:text=" 1234 "
             android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:paddingRight="20dp"
-        android:paddingLeft="20dp"
-        android:layout_gravity="bottom"
-        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="175dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:scaleType='fitCenter'
-        android:src="@drawable/menu_button"
-        android:layout_marginTop="10dp"
-        />
-    </LinearLayout>
+            <ImageButton
+                android:layout_width="145dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="20dp"
+                android:scaleType='fitCenter'
+                android:src="@drawable/facebook" />
+
+            <ImageButton
+                android:layout_width="83dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="36dp"
+                android:background="#FFFFFF"
+                android:scaleType='fitCenter'
+                android:src="@drawable/message" />
+
+            <ImageButton
+                android:layout_width="145dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:scaleType='fitCenter'
+                android:src="@drawable/snapchatlogo" />
+
+
+        </LinearLayout>
+
+
+
 </FrameLayout>
